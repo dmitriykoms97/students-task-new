@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/students-task-new/static/css/main.dae16ab2.chunk.css",
+    "main.js": "/students-task-new/static/js/main.6f4c235c.chunk.js",
+    "main.js.map": "/students-task-new/static/js/main.6f4c235c.chunk.js.map",
+    "runtime-main.js": "/students-task-new/static/js/runtime-main.c184e4b4.js",
+    "runtime-main.js.map": "/students-task-new/static/js/runtime-main.c184e4b4.js.map",
+    "static/css/2.4659568d.chunk.css": "/students-task-new/static/css/2.4659568d.chunk.css",
+    "static/js/2.9349703e.chunk.js": "/students-task-new/static/js/2.9349703e.chunk.js",
+    "static/js/2.9349703e.chunk.js.map": "/students-task-new/static/js/2.9349703e.chunk.js.map",
+    "index.html": "/students-task-new/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/students-task-new/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.dae16ab2.chunk.css.map": "/students-task-new/static/css/main.dae16ab2.chunk.css.map",
+    "static/js/2.9349703e.chunk.js.LICENSE.txt": "/students-task-new/static/js/2.9349703e.chunk.js.LICENSE.txt",
+    "static/media/arrow-down-up.94dfb5ff.svg": "/students-task-new/static/media/arrow-down-up.94dfb5ff.svg",
+    "static/media/arrow-repeat.a5aaafc7.svg": "/students-task-new/static/media/arrow-repeat.a5aaafc7.svg",
+    "static/media/calendar2.32280a52.svg": "/students-task-new/static/media/calendar2.32280a52.svg",
+    "static/media/caret-down-fill.27c49128.svg": "/students-task-new/static/media/caret-down-fill.27c49128.svg",
+    "static/media/chevron-compact-down.97e29767.svg": "/students-task-new/static/media/chevron-compact-down.97e29767.svg",
+    "static/media/chevron-compact-up.37dea7c3.svg": "/students-task-new/static/media/chevron-compact-up.37dea7c3.svg",
+    "static/media/cloud-upload.7161b097.svg": "/students-task-new/static/media/cloud-upload.7161b097.svg",
+    "static/media/search.b1f781b9.svg": "/students-task-new/static/media/search.b1f781b9.svg",
+    "static/media/sort-alpha-down.7e030a2a.svg": "/students-task-new/static/media/sort-alpha-down.7e030a2a.svg",
+    "static/media/sort-alpha-up.00d47c22.svg": "/students-task-new/static/media/sort-alpha-up.00d47c22.svg",
+    "static/media/x.85f9f2a1.svg": "/students-task-new/static/media/x.85f9f2a1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c184e4b4.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.9349703e.chunk.js",
+    "static/css/main.dae16ab2.chunk.css",
+    "static/js/main.6f4c235c.chunk.js"
+  ]
+}
