@@ -1,0 +1,16 @@
+.paginatorContainer {
+    display: flex;
+    justify-content: center;
+}
+.selectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+}
+.select {
+    width: 50px;
+    text-align: center;
+    border: none;
+    margin-right: 20px;
+}

@@ -1,0 +1,40 @@
+.parents {
+    display: flex;
+    justify-content: space-between;
+}
+.chevron:hover {
+    transform: scale(1.3);
+    transition: .3s linear;
+    cursor: pointer;
+}
+th {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    position: relative;
+    transition: .3s linear;
+}
+thead tr th:hover {
+    background: beige;
+    cursor: pointer;
+    transition: .3s linear;
+}
+th img {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+}
+.content {
+    color: #A6192E;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+.showContent {
+    background: #F2F2F2;
+}

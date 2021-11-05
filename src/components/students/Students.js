@@ -9,12 +9,12 @@ import StudentDescription from "./student/StudentDescription";
 import {identifyColor, identifyColorSpeed} from "./student/common/helper";
 
 
-const Students = ({students, sortField, reverse, checkActive, checkboxChanged}) => {
+const Students = ({students, checkActive, checkboxChanged, sortBy, sortClick}) => {
 
     const [descriptionActive, setDescriptionActive] = useState(null)
 
     const showDescription = (i) => {
-        if(descriptionActive === i) {
+        if (descriptionActive === i) {
             return setDescriptionActive(null)
         }
         setDescriptionActive(i)
@@ -25,25 +25,33 @@ const Students = ({students, sortField, reverse, checkActive, checkboxChanged}) 
             <table className="table table-striped" style={{'marginTop': '10px'}}>
                 <thead>
                 <tr>
-                    <th onClick={checkboxChanged} scope="col">
-                        <input type='checkbox'/>
+                    <th scope="col">
+                        <input type='checkbox' onClick={checkboxChanged}/>
                     </th>
-                    <th onClick={() => {sortField('name')}} scope="col">
+                    <th onClick={() => {
+                        sortBy('name')
+                    }} scope="col">
                         Name
-                        <img src={reverse ? iconUp : iconDown} alt='icon'/>
+                        <img src={sortClick ? iconDown : iconUp} alt='icon'/>
                     </th>
-                    <th onClick={() => {sortField('id')}} scope="col">
+                    <th scope="col">
                         ID
+                    </th>
+                    <th onClick={() => {
+                        sortBy('class')
+                    }} scope="col">
+                        Class
                         <img src={icon} alt='icon'/>
                     </th>
-                    <th scope="col" >
-                        Class
-                    </th>
-                    <th onClick={() => {sortField('score')}} scope="col">
+                    <th onClick={() => {
+                        sortBy('score')
+                    }} scope="col">
                         Av.Score, %
                         <img src={icon} alt='icon'/>
                     </th>
-                    <th onClick={() => {sortField('speed')}} scope="col">
+                    <th onClick={() => {
+                        sortBy('speed')
+                    }} scope="col">
                         Av.Speed
                         <img src={icon} alt='icon'/>
                     </th>
@@ -55,8 +63,12 @@ const Students = ({students, sortField, reverse, checkActive, checkboxChanged}) 
                 <tbody>
                 {students.map((s, i) => (
                     <>
-                        <tr>
-                            <th scope='row' style={{'width': '50px'}}><input type='checkbox'/></th>
+                        <tr key={i}>
+                            <th scope='row' style={{'width': '50px'}}>
+                                <input type='checkbox'
+                                       checked={checkActive}
+                                       value={i}
+                                /></th>
                             <td style={{'width': '350px'}}>{s.name}</td>
                             <td>{s.id}</td>
                             <td>{s.class}</td>
