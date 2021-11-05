@@ -1,0 +1,33 @@
+.average {
+    margin-left: 35px;
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footerBlock {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.averageScore {
+    margin-left: 185px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.averageSpeed {
+    margin-left: 70px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.score {
+    width: 100px;
+}
+
+.line {
+    width: 1100px;
+    height: 2px;
+    background: #A6192E;
+    margin-bottom: 10px;
+}
